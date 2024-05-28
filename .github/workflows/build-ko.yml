@@ -58,7 +58,7 @@ jobs:
         wget https://raw.githubusercontent.com/jiamils/KernelSU_Action/main/magiskboot
         chmod a+x magiskboot
         cd packboot
-        wget https://www.123pan.com/s/4uytVv-RDZUh.html
+        wget https://d.pcs.baidu.com/file/e657194ccrc7d1f5678b55a8c62886d6?fid=1717150832-250528-1105998483258521&dstime=1716911372&rt=sh&sign=FDtAERVJouK-DCb740ccc5511e5e8fedcff06b081203-PXr8%2Fj0BIBsr2hvnT%2BrEE89rAIU%3D&expires=8h&chkv=1&chkbd=0&chkpc=&dp-logid=9220169703076429276&dp-callid=0&shareid=59184248234&r=613101291&resvsflag=1-12-0-1-1-1&vuk=1717150832&file_type=0&clienttype=12
         ../magiskboot unpack boot.img
         cp ../out/arch/arm64/boot/Image.lz4 kernel
         ../magiskboot repack boot.img
