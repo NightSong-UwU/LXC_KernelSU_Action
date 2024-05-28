@@ -58,7 +58,7 @@ jobs:
         wget https://raw.githubusercontent.com/jiamils/KernelSU_Action/main/magiskboot
         chmod a+x magiskboot
         cd packboot
-        wget https://mirrorbits.lineageos.org/full/crosshatch/20240423/boot.img
+        wget https://www.123pan.com/s/4uytVv-RDZUh.html
         ../magiskboot unpack boot.img
         cp ../out/arch/arm64/boot/Image.lz4 kernel
         ../magiskboot repack boot.img
