@@ -25,7 +25,7 @@ jobs:
              
     - name: Build kernel
       run: |
-        git clone https://github.com/MiCode/Xiaomi_Kernel_OpenSource kernel.git
+        git clone -b mona-r-oss https://github.com/MiCode/Xiaomi_Kernel_OpenSource kernel.git
         cd $GITHUB_WORKSPACE
         cd kernel
         export ARCH=arm64
